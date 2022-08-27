@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="10" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-27T13:14:34 IST" name="Command line suite" finished-at="2022-08-27T13:14:37 IST" duration-ms="2928">
+    <groups>
+    </groups>
+    <test started-at="2022-08-27T13:14:34 IST" name="Command line test" finished-at="2022-08-27T13:14:37 IST" duration-ms="2928">
+      <class name="com.w2a.APTestingFramework.testcases.CreateCustomerTest">
+        <test-method signature="invalidCreateCustomerAPI(java.util.Hashtable)[pri:0, instance:com.w2a.APTestingFramework.testcases.CreateCustomerTest@6ee4d9ab]" started-at="2022-08-27T13:14:34 IST" name="invalidCreateCustomerAPI" data-provider="getData" finished-at="2022-08-27T13:14:35 IST" duration-ms="949" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=, name=Krishna, description=invalid test}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at com.w2a.APTestingFramework.testcases.CreateCustomerAPI.sendPostrequesttoCreateCustomerAPIwithInvalidAuth(CreateCustomerAPI.java:43)
+at com.w2a.APTestingFramework.testcases.CreateCustomerTest.invalidCreateCustomerAPI(CreateCustomerTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCreateCustomerAPI -->
+        <test-method signature="validateCreateCustomerAPI(java.util.Hashtable)[pri:0, instance:com.w2a.APTestingFramework.testcases.CreateCustomerTest@6ee4d9ab]" started-at="2022-08-27T13:14:35 IST" name="validateCreateCustomerAPI" data-provider="getData" finished-at="2022-08-27T13:14:36 IST" duration-ms="640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=krishna@krishna.com, name=Krishna, description=Hai this is my first test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPI -->
+        <test-method signature="validateCreateCustomerAPI(java.util.Hashtable)[pri:0, instance:com.w2a.APTestingFramework.testcases.CreateCustomerTest@6ee4d9ab]" started-at="2022-08-27T13:14:35 IST" name="validateCreateCustomerAPI" data-provider="getData" finished-at="2022-08-27T13:14:36 IST" duration-ms="640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=test@girls.com, name=Random girl, description=forth}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPI -->
+        <test-method signature="validateCreateCustomerAPI(java.util.Hashtable)[pri:0, instance:com.w2a.APTestingFramework.testcases.CreateCustomerTest@6ee4d9ab]" started-at="2022-08-27T13:14:35 IST" name="validateCreateCustomerAPI" data-provider="getData" finished-at="2022-08-27T13:14:36 IST" duration-ms="1007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=sand@sand.com, name=Sandeep, description=test is the second test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPI -->
+        <test-method signature="validateCreateCustomerAPI(java.util.Hashtable)[pri:0, instance:com.w2a.APTestingFramework.testcases.CreateCustomerTest@6ee4d9ab]" started-at="2022-08-27T13:14:35 IST" name="validateCreateCustomerAPI" data-provider="getData" finished-at="2022-08-27T13:14:36 IST" duration-ms="640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=test@abc.com, name=Random guy, description=this is my third test }]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPI -->
+      </class> <!-- com.w2a.APTestingFramework.testcases.CreateCustomerTest -->
+      <class name="com.w2a.APITestingFramework.utilities.TestParametrization">
+        <test-method signature="testData(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFramework.utilities.TestParametrization@1672fe87]" started-at="2022-08-27T13:14:34 IST" name="testData" data-provider="getData" finished-at="2022-08-27T13:14:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y, postcode=A33333, lastname=hai, firstname=krsi}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method signature="testData(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFramework.utilities.TestParametrization@1672fe87]" started-at="2022-08-27T13:14:34 IST" name="testData" data-provider="getData" finished-at="2022-08-27T13:14:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=N, postcode=123234.0, lastname=saba, firstname=bhai}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+      </class> <!-- com.w2a.APITestingFramework.utilities.TestParametrization -->
+      <class name="com.w2a.APITestingFramework.setUp.BaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w2a.APITestingFramework.setUp.BaseTest@30bce90b]" started-at="2022-08-27T13:14:34 IST" name="setUp" finished-at="2022-08-27T13:14:34 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.w2a.APITestingFramework.setUp.BaseTest -->
+      <class name="com.w2a.APTestingFramework.testcases.DeleteCustomerTest">
+        <test-method signature="deleteCustomer(java.util.Hashtable)[pri:0, instance:com.w2a.APTestingFramework.testcases.DeleteCustomerTest@6057aebb]" started-at="2022-08-27T13:14:36 IST" name="deleteCustomer" data-provider="getData" finished-at="2022-08-27T13:14:37 IST" duration-ms="873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=cus_MJgPpLs23JTry2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+      </class> <!-- com.w2a.APTestingFramework.testcases.DeleteCustomerTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

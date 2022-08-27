@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.84 sec <<< FAILURE!
+invalidCreateCustomerAPI(com.w2a.APTestingFramework.testcases.CreateCustomerTest)  Time elapsed: 0.95 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.w2a.APTestingFramework.testcases.CreateCustomerAPI.sendPostrequesttoCreateCustomerAPIwithInvalidAuth(CreateCustomerAPI.java:43)
+	at com.w2a.APTestingFramework.testcases.CreateCustomerTest.invalidCreateCustomerAPI(CreateCustomerTest.java:39)
+

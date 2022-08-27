@@ -1,0 +1,13 @@
+com\w2a\APITestingFramework\setUp\BaseTest.class
+com\w2a\APTestingFramework\testcases\ReadingExcelData.class
+com\w2a\APITestingFramework\Listeners\ExtentListeners.class
+com\w2a\APITestingFramework\utilities\ExcelReader.class
+com\w2a\APITestingFramework\utilities\TestParametrization.class
+com\w2a\APTestingFramework\testcases\CreateCustomerTest.class
+com\w2a\APTestingFramework\testcases\CreateCustomerAPI.class
+com\w2a\APITestingFramework\utilities\DataUtil.class
+com\w2a\APTestingFramework\testcases\DeleteCustomerTest.class
+com\w2a\APITestingFramework\Listeners\ExtentManager.class
+com\w2a\APITestingFramework\utilities\TestUtil.class
+com\w2a\APITestingFramework\utilities\Constants.class
+com\w2a\APTestingFramework\testcases\DeleteCustomerAPI.class

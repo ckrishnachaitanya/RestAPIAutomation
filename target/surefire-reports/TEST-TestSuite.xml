@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="1" name="TestSuite" time="4.748" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="Apitesting"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Apitesting/1/display/redirect?page=tests"/>
+    <property name="NUMBER_OF_PROCESSORS" value="16"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\ASUS\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="e21de20eb1cc1bf2"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\ASUS\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="RlsSvcPort" value="22112"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="user.name" value="ASUS"/>
+    <property name="ACSvcPort" value="17532"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Apitesting"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Apitesting/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="OneDrive" value="C:\Users\ASUS\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="LOCALAPPDATA" value="C:\Users\ASUS\AppData\Local"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="PROCESSOR_LEVEL" value="25"/>
+    <property name="USERNAME" value="ASUS"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="OneDriveConsumer" value="C:\Users\ASUS\OneDrive"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="PyCharm Community Edition" value="C:\Program Files\JetBrains\PyCharm Community Edition 2021.3\bin;"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="E:\Selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="10.0"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Apitesting/1/display/redirect"/>
+    <property name="TMP" value="C:\Users\ASUS\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Apitesting/1/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.variant" value=""/>
+    <property name="Maven_home" value="E:\Selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Apitesting/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="LAPTOP-08C644NB"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\ASUS"/>
+    <property name="COMPUTERNAME" value="LAPTOP-08C644NB"/>
+    <property name="user.script" value=""/>
+    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-Apitesting-1"/>
+    <property name="JENKINS_SERVER_COOKIE" value="e21de20eb1cc1bf2"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\ASUS"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6/bin;C:\Program Files\Java\jdk-17.0.1/bin;C:\Program Files\Java\jdk-17.0.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Amazon\AWSCLIV2\;E:\Selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\ASUS\AppData\Local\Programs\Python\Python310\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3\bin;C:\Users\ASUS\AppData\Local\GitHubDesktop\bin;C:\Users\ASUS\AppData\Local\atom\bin;."/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\ASUS\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="E:\Selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="java.class.path" value="C:\Users\ASUS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;E:\Selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar;E:\Selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main E:\Selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6 C:\Users\ASUS\.jenkins\war\WEB-INF\lib\remoting-4.13.3.jar C:\Users\ASUS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\ASUS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 63327"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-17.0.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Amazon\AWSCLIV2\;E:\Selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\ASUS\AppData\Local\Programs\Python\Python310\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3\bin;C:\Users\ASUS\AppData\Local\GitHubDesktop\bin;C:\Users\ASUS\AppData\Local\atom\bin"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-17.0.1/bin"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="M2_HOME" value="E:\Selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\ASUS\.jenkins"/>
+    <property name="PATH+MAVEN" value="E:\Selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Apitesting/1/"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="ERROR_CODE" value="1"/>
+    <property name="user.dir" value="C:\Users\ASUS\eclipse-workspace\APITestingFramework"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Apitesting/"/>
+    <property name="LOGONSERVER" value="\\LAPTOP-08C644NB"/>
+    <property name="USERDOMAIN" value="LAPTOP-08C644NB"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="PROCESSOR_REVISION" value="5000"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Users\ASUS\Downloads"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\ASUS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\ASUS\.jenkins\workspace\Apitesting@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\ASUS\.jenkins\workspace\Apitesting"/>
+    <property name="maven3.interceptor.common" value="C:\Users\ASUS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase classname="com.w2a.APITestingFramework.utilities.TestParametrization" name="testData" time="0.002"/>
+  <testcase classname="com.w2a.APITestingFramework.utilities.TestParametrization" name="testData" time="0"/>
+  <testcase classname="com.w2a.APTestingFramework.testcases.CreateCustomerTest" name="invalidCreateCustomerAPI" time="0.95">
+    <failure message="expected [200] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.w2a.APTestingFramework.testcases.CreateCustomerAPI.sendPostrequesttoCreateCustomerAPIwithInvalidAuth(CreateCustomerAPI.java:43)
+	at com.w2a.APTestingFramework.testcases.CreateCustomerTest.invalidCreateCustomerAPI(CreateCustomerTest.java:39)
+</failure>
+    <system-out>testData
+.\src\test\resources\excel\testdata.xlsx
+Total rows 14
+validateCreateCustomerAPI
+name
+Krishna
+Sandeep
+Random guy
+Random girl
+
+invalidCreateCustomerAPI
+testCaseRowNum 8
+testRows 1
+columnStartColNum 9
+testCols 3
+testRows 1
+Krishna
+name
+
+email
+invalid test
+description
+{
+    &quot;error&quot;: {
+        &quot;message&quot;: &quot;You did not provide an API key. You need to provide your API key in the Authorization header, using Bearer auth (e.g. &apos;Authorization: Bearer YOUR_SECRET_KEY&apos;). See https://stripe.com/docs/api#authentication for details, or we can help at https://support.stripe.com/.&quot;,
+        &quot;type&quot;: &quot;invalid_request_error&quot;
+    }
+}
+401
+</system-out>
+  </testcase>
+  <testcase classname="com.w2a.APTestingFramework.testcases.CreateCustomerTest" name="validateCreateCustomerAPI" time="0.639"/>
+  <testcase classname="com.w2a.APTestingFramework.testcases.CreateCustomerTest" name="validateCreateCustomerAPI" time="0.639"/>
+  <testcase classname="com.w2a.APTestingFramework.testcases.CreateCustomerTest" name="validateCreateCustomerAPI" time="0.639"/>
+  <testcase classname="com.w2a.APTestingFramework.testcases.CreateCustomerTest" name="validateCreateCustomerAPI" time="1.006"/>
+  <testcase classname="com.w2a.APTestingFramework.testcases.DeleteCustomerTest" name="deleteCustomer" time="0.873"/>
+</testsuite>
